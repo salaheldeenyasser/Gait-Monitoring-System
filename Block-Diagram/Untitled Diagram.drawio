@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-05-11T23:02:42.975Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" etag="mFeSvPDcMsxpXcbczvN7" version="24.4.0" type="github">
+<mxfile host="app.diagrams.net" modified="2024-05-11T23:06:17.571Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" etag="5344MbnWh5QIuc84AbvP" version="24.4.0" type="github">
   <diagram id="prtHgNgQTEPvFCAcTncT" name="Page-1">
     <mxGraphModel dx="1235" dy="614" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -37,7 +37,7 @@
         <mxCell id="-HDPLg_2fKKEUQgn7wLb-27" value="Process" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1;fontSize=14;" parent="1" vertex="1">
           <mxGeometry x="200" y="240" width="90" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="S8j3CGpkhIarZJjFq1TY-1" value="&lt;b&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;Transmitter&lt;/font&gt;&lt;/b&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+        <mxCell id="S8j3CGpkhIarZJjFq1TY-1" value="&lt;b&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;Transmitter 1&lt;/font&gt;&lt;/b&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
           <mxGeometry x="320" y="240" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="S8j3CGpkhIarZJjFq1TY-2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="S8j3CGpkhIarZJjFq1TY-7">
@@ -45,7 +45,7 @@
             <mxPoint x="325" y="410" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="S8j3CGpkhIarZJjFq1TY-3" value="&lt;span style=&quot;font-size: 14px;&quot;&gt;Gyroscope 1&lt;/span&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fontStyle=1" vertex="1" parent="1">
+        <mxCell id="S8j3CGpkhIarZJjFq1TY-3" value="&lt;span style=&quot;font-size: 14px;&quot;&gt;Gyroscope 2&lt;/span&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fontStyle=1" vertex="1" parent="1">
           <mxGeometry x="55" y="380" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="S8j3CGpkhIarZJjFq1TY-4" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" target="S8j3CGpkhIarZJjFq1TY-3">
@@ -70,7 +70,7 @@
         <mxCell id="S8j3CGpkhIarZJjFq1TY-7" value="Process" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1;fontSize=14;" vertex="1" parent="1">
           <mxGeometry x="195" y="380" width="90" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="S8j3CGpkhIarZJjFq1TY-8" value="&lt;b&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;Transmitter&lt;/font&gt;&lt;/b&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+        <mxCell id="S8j3CGpkhIarZJjFq1TY-8" value="&lt;b&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;Transmitte2&lt;/font&gt;&lt;/b&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
           <mxGeometry x="315" y="380" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="S8j3CGpkhIarZJjFq1TY-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="S8j3CGpkhIarZJjFq1TY-14">
@@ -78,7 +78,7 @@
             <mxPoint x="325" y="550" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="S8j3CGpkhIarZJjFq1TY-10" value="&lt;span style=&quot;font-size: 14px;&quot;&gt;Gyroscope 1&lt;/span&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fontStyle=1" vertex="1" parent="1">
+        <mxCell id="S8j3CGpkhIarZJjFq1TY-10" value="&lt;span style=&quot;font-size: 14px;&quot;&gt;Gyroscope 3&lt;/span&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fontStyle=1" vertex="1" parent="1">
           <mxGeometry x="55" y="520" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="S8j3CGpkhIarZJjFq1TY-11" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" target="S8j3CGpkhIarZJjFq1TY-10">
@@ -103,7 +103,7 @@
         <mxCell id="S8j3CGpkhIarZJjFq1TY-14" value="Process" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1;fontSize=14;" vertex="1" parent="1">
           <mxGeometry x="195" y="520" width="90" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="S8j3CGpkhIarZJjFq1TY-15" value="&lt;b&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;Transmitter&lt;/font&gt;&lt;/b&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+        <mxCell id="S8j3CGpkhIarZJjFq1TY-15" value="&lt;b&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;Transmitter 3&lt;/font&gt;&lt;/b&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
           <mxGeometry x="315" y="520" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="S8j3CGpkhIarZJjFq1TY-24" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="S8j3CGpkhIarZJjFq1TY-29">
@@ -111,7 +111,7 @@
             <mxPoint x="325" y="690" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="S8j3CGpkhIarZJjFq1TY-25" value="&lt;span style=&quot;font-size: 14px;&quot;&gt;Gyroscope 1&lt;/span&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fontStyle=1" vertex="1" parent="1">
+        <mxCell id="S8j3CGpkhIarZJjFq1TY-25" value="&lt;span style=&quot;font-size: 14px;&quot;&gt;Gyroscope 4&lt;/span&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fontStyle=1" vertex="1" parent="1">
           <mxGeometry x="55" y="660" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="S8j3CGpkhIarZJjFq1TY-26" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" target="S8j3CGpkhIarZJjFq1TY-25">
@@ -136,10 +136,10 @@
         <mxCell id="S8j3CGpkhIarZJjFq1TY-29" value="Process" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1;fontSize=14;" vertex="1" parent="1">
           <mxGeometry x="195" y="660" width="90" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="S8j3CGpkhIarZJjFq1TY-30" value="&lt;b&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;Transmitter&lt;/font&gt;&lt;/b&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+        <mxCell id="S8j3CGpkhIarZJjFq1TY-30" value="&lt;b&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;Transmitter 4&lt;/font&gt;&lt;/b&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
           <mxGeometry x="315" y="660" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="S8j3CGpkhIarZJjFq1TY-32" value="&lt;span style=&quot;font-size: 14px;&quot;&gt;Gyroscope 1&lt;/span&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fontStyle=1" vertex="1" parent="1">
+        <mxCell id="S8j3CGpkhIarZJjFq1TY-32" value="&lt;span style=&quot;font-size: 14px;&quot;&gt;Gyroscope 5&lt;/span&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fontStyle=1" vertex="1" parent="1">
           <mxGeometry x="490" y="310" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="S8j3CGpkhIarZJjFq1TY-34" value="&lt;b&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;Acquire new inputs&lt;/font&gt;&lt;/b&gt;" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
