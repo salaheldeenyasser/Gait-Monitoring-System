@@ -4,11 +4,11 @@
 #include <Wire.h>
 
 RF24 radio(7, 8); // CE, CSN
-const byte address[6] = "00010"; // Address for Unit
+const uint64_t pipe2 = 0xF0F0F0F066; // Address for Unit
 struct UnitData {
-  byte RollValue;
-  byte PitchValue;
-  byte YawValue;
+  float RollValue;
+  float PitchValue;
+  float YawValue;
   byte UnitNum;
 };
 UnitData Readings;
@@ -23,7 +23,7 @@ float elapsedTime, currentTime, previousTime;
 int c = 0;
 void setup() {
   radio.begin();
-  radio.openWritingPipe(address);
+  radio.openWritingPipe(pipe2);
   radio.setPALevel(RF24_PA_MIN);
   radio.stopListening();
   Readings.UnitNum = 2;
@@ -35,20 +35,18 @@ void setup() {
 void loop() {
   // === Read acceleromter data === //
   IMU_Read();
-
-  // Print the values on the serial monitor
+  /*// Print the values on the serial monitor
   Serial.print(roll);
   Serial.print("/");
   Serial.print(pitch);
   Serial.print("/");
-  Serial.println(yaw);
-  /*
+  Serial.println(yaw);*/
+  // Putting data readings in the structure
   Readings.RollValue = roll;
   Readings.PitchValue = pitch;
   Readings.YawValue = yaw;
-
   // Send the whole data from the structure to the receiver
-  radio.write(&Readings, sizeof(UnitData)); */
+  radio.write(&Readings, sizeof(UnitData)); 
 }
 void initialize_MPU6050() {
   Wire.begin();                      // Initialize comunication
@@ -56,7 +54,6 @@ void initialize_MPU6050() {
   Wire.write(0x6B);                  // Talk to the register 6B
   Wire.write(0x00);                  // Make reset - place a 0 into the 6B register
   Wire.endTransmission(true);        //end the transmission
-  /*
   // Configure Accelerometer
   Wire.beginTransmission(MPU);
   Wire.write(0x1C);                  //Talk to the ACCEL_CONFIG register
@@ -67,7 +64,7 @@ void initialize_MPU6050() {
   Wire.write(0x1B);                   // Talk to the GYRO_CONFIG register (1B hex)
   Wire.write(0x10);                   // Set the register bits as 00010000 (1000dps full scale)
   Wire.endTransmission(true);
-  */
+  
 }
 
 void calculate_IMU_error() {
