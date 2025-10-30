@@ -125,11 +125,16 @@ Optionally, record the data for later analysis.
 ---
 
 ## 🔍 Data Processing Pipeline
-Step	Operation	Description
+Step	Operation	Description:
+
 1	Signal Acquisition	Collect raw sensor data (acc, gyro)
+
 2	Filtering	Apply low-pass filter to remove noise
+
 3	Segmentation	Detect gait cycles using peaks/zero crossings
+
 4	Feature Extraction	Calculate stride length, cadence, gait symmetry, etc.
+
 5	Visualization	Display real-time plots and statistics
 
 ---
@@ -171,12 +176,19 @@ To contribute:
 
 Fork the repository
 
-Create a feature branch (git checkout -b feature-name)
+Create a feature branch 
+```bash
+git checkout -b feature-name
+```
+Commit your changes 
+```bash
+git commit -m "Add feature"
+```
 
-Commit your changes (git commit -m "Add feature")
-
-Push to the branch (git push origin feature-name)
-
+Push to the branch 
+```bash
+git push origin feature-name
+```
 Open a Pull Request
 
 ---
