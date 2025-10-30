@@ -1,40 +1,35 @@
-# 🦶 Gait Monitoring System
-## Overview
+# 🦶 Gait Monitoring System  
 
-The Gait Monitoring System is an embedded + software solution designed to monitor, analyze, and visualize human walking patterns in real time.
-It combines sensor data acquisition, signal processing, and visual feedback to help identify gait irregularities, support rehabilitation, and assist in research studies.
+## 🧾 Overview  
+The **Gait Monitoring System** is an embedded + software solution designed to monitor, analyze, and visualize human walking patterns in real time.  
+It combines **sensor data acquisition**, **signal processing**, and **visual feedback** to help identify gait irregularities, support rehabilitation, and assist in research studies.
 
-## 🧠 Table of Contents
+---
 
-Project Motivation
+## 🧠 Table of Contents  
+- [Project Motivation](#project-motivation)  
+- [System Architecture](#system-architecture)  
+- [Hardware Requirements](#hardware-requirements)  
+- [Software Requirements](#software-requirements)  
+- [Installation](#installation)  
+- [Usage Guide](#usage-guide)  
+- [Data Processing Pipeline](#data-processing-pipeline)  
+- [Results & Visualization](#results--visualization)  
+- [Future Improvements](#future-improvements)  
+- [Contributing](#contributing)  
+- [License](#license)  
 
-System Architecture
+---
 
-Hardware Requirements
+## 💡 Project Motivation  
+Gait — the way we walk — is a crucial indicator of health and mobility.  
+Current gait-analysis systems are often expensive and confined to labs.  
+This project provides a **low-cost, portable, and open-source** alternative that enables real-time gait tracking and visualization using embedded sensors and custom signal-processing algorithms.
 
-Software Requirements
+---
 
-Installation
+## ⚙️ System Architecture  
 
-Usage Guide
-
-Data Processing Pipeline
-
-Results & Visualization
-
-Future Improvements
-
-Contributing
-
-License
-
-## 💡 Project Motivation
-
-Gait — the way we walk — is a crucial indicator of health and mobility.
-Current gait-analysis systems are often expensive and confined to labs.
-This project provides a low-cost, portable, and open-source alternative that enables real-time gait tracking and visualization using embedded sensors and custom signal-processing algorithms.
-
-## ⚙️ System Architecture
 +--------------------------+
 |    Sensor Node (IMU)     |
 | (Accelerometer + Gyro)   |
@@ -54,37 +49,48 @@ This project provides a low-cost, portable, and open-source alternative that ena
 |  Processing + Visualization |
 +--------------------------+
 
-Main Components
 
-Embedded Layer:
-Captures real-time motion data (acceleration, angular velocity).
+### **Main Components**
+1. **Embedded Layer:**  
+   Captures real-time motion data (acceleration, angular velocity).  
+2. **Communication Layer:**  
+   Sends sensor data to the host PC via serial or wireless link.  
+3. **Software Layer:**  
+   Performs signal filtering, gait-phase detection, feature extraction, and visualization.
 
-Communication Layer:
-Sends sensor data to the host PC via serial or wireless link.
+---
 
-Software Layer:
-Performs signal filtering, gait-phase detection, feature extraction, and visualization.
+## 🔩 Hardware Requirements  
 
-## 🔩 Hardware Requirements
-Component	Description	Example
-Microcontroller	Reads sensor data	Arduino UNO / Nano
-IMU Sensor	Measures acceleration & rotation	MPU-6050 / MPU-9250
-Power Source	Portable supply	USB / Li-ion battery
-Optional	Wireless communication	HC-05 Bluetooth / ESP8266
-Mounting	Fix sensor to foot/leg	Elastic strap or shoe mount
-## 💻 Software Requirements
-Tool	Purpose
-Arduino IDE	Firmware upload and serial communication
-Processing IDE	Data visualization and analysis
-Python (optional)	Advanced signal processing or ML
-MATLAB (optional)	Post-processing and feature validation
-# 🧰 Installation
-1. Clone the repository
-'''bash
+| Component | Description | Example |
+|------------|-------------|----------|
+| Microcontroller | Reads sensor data | Arduino UNO / Nano |
+| IMU Sensor | Measures acceleration & rotation | MPU-6050 / MPU-9250 |
+| Power Source | Portable supply | USB / Li-ion battery |
+| Optional | Wireless communication | HC-05 Bluetooth / ESP8266 |
+| Mounting | Fix sensor to foot/leg | Elastic strap or shoe mount |
+
+---
+
+## 💻 Software Requirements  
+
+| Tool | Purpose |
+|------|----------|
+| **Arduino IDE** | Firmware upload and serial communication |
+| **Processing IDE** | Data visualization and analysis |
+| **Python (optional)** | Advanced signal processing or ML |
+| **MATLAB (optional)** | Post-processing and feature validation |
+
+---
+
+## 🧰 Installation  
+
+### 1. Clone the repository
+```bash
 git clone https://github.com/salaheldeenyasser/Gait-Monitoring-System.git
 cd Gait-Monitoring-System
-'''
-2. Set up Arduino
+
+### 2. Set up Arduino
 
 Open the Arduino code from /Arduino/.
 
@@ -94,7 +100,7 @@ Select the correct board and port.
 
 Upload the sketch.
 
-3. Set up Processing
+### 3. Set up Processing
 
 Open the Processing script from /Processing/.
 
