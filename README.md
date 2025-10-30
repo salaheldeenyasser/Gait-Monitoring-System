@@ -1,10 +1,10 @@
-#🦶 Gait Monitoring System
+# 🦶 Gait Monitoring System
 Overview
 
 The Gait Monitoring System is an embedded + software solution designed to monitor, analyze, and visualize human walking patterns in real time.
 It combines sensor data acquisition, signal processing, and visual feedback to help identify gait irregularities, support rehabilitation, and assist in research studies.
 
-#🧠 Table of Contents
+# 🧠 Table of Contents
 
 Project Motivation
 
@@ -28,7 +28,7 @@ Contributing
 
 License
 
-#💡 Project Motivation
+# 💡 Project Motivation
 
 Gait — the way we walk — is a crucial indicator of health and mobility.
 Current gait-analysis systems are often expensive and confined to labs.
@@ -65,20 +65,20 @@ Sends sensor data to the host PC via serial or wireless link.
 Software Layer:
 Performs signal filtering, gait-phase detection, feature extraction, and visualization.
 
-#🔩 Hardware Requirements
+# 🔩 Hardware Requirements
 Component	Description	Example
 Microcontroller	Reads sensor data	Arduino UNO / Nano
 IMU Sensor	Measures acceleration & rotation	MPU-6050 / MPU-9250
 Power Source	Portable supply	USB / Li-ion battery
 Optional	Wireless communication	HC-05 Bluetooth / ESP8266
 Mounting	Fix sensor to foot/leg	Elastic strap or shoe mount
-#💻 Software Requirements
+# 💻 Software Requirements
 Tool	Purpose
 Arduino IDE	Firmware upload and serial communication
 Processing IDE	Data visualization and analysis
 Python (optional)	Advanced signal processing or ML
 MATLAB (optional)	Post-processing and feature validation
-#🧰 Installation
+# 🧰 Installation
 1. Clone the repository
 git clone https://github.com/salaheldeenyasser/Gait-Monitoring-System.git
 cd Gait-Monitoring-System
@@ -101,7 +101,7 @@ Adjust the COM port and baud rate in the code to match your Arduino.
 
 Run the sketch to start data visualization.
 
-#🚀 Usage Guide
+# 🚀 Usage Guide
 
 Mount the IMU on your foot, ankle, or shin securely.
 
@@ -120,7 +120,7 @@ Step	Operation	Description
 3	Segmentation	Detect gait cycles using peaks/zero crossings
 4	Feature Extraction	Calculate stride length, cadence, gait symmetry, etc.
 5	Visualization	Display real-time plots and statistics
-#📊 Results & Visualization
+# 📊 Results & Visualization
 
 The Processing interface provides:
 
@@ -134,7 +134,7 @@ Option to export logs for offline study
 
 (Insert screenshots or graphs here)
 
-#🧭 Future Improvements
+# 🧭 Future Improvements
 
 Add machine learning models to classify gait abnormalities.
 
@@ -146,7 +146,7 @@ Develop a mobile app for remote monitoring and data logging.
 
 Integrate cloud storage and dashboards for therapists and researchers.
 
-#🤝 Contributing
+# 🤝 Contributing
 
 Contributions, ideas, and feature suggestions are welcome!
 To contribute:
@@ -161,12 +161,12 @@ Push to the branch (git push origin feature-name)
 
 Open a Pull Request
 
-#🪪 License
+# 🪪 License
 
 This project is released under the MIT License.
 You’re free to use, modify, and distribute it for educational or research purposes.
 
-#🧍 Author
+# 🧍 Author
 
 Salah-Eldeen Yasser
 👨‍💻 Junior Embedded Software Engineer
