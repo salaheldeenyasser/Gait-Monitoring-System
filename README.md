@@ -29,7 +29,7 @@ This project provides a **low-cost, portable, and open-source** alternative that
 ---
 
 ## ⚙️ System Architecture  
-
+```
 +--------------------------+
 |    Sensor Node (IMU)     |
 | (Accelerometer + Gyro)   |
@@ -48,7 +48,7 @@ This project provides a **low-cost, portable, and open-source** alternative that
 |   Host Software (PC)     |
 |  Processing + Visualization |
 +--------------------------+
-
+```
 
 ### **Main Components**
 1. **Embedded Layer:**  
@@ -108,6 +108,8 @@ Adjust the COM port and baud rate in the code to match your Arduino.
 
 Run the sketch to start data visualization.
 
+---
+
 ## 🚀 Usage Guide
 
 Mount the IMU on your foot, ankle, or shin securely.
@@ -120,6 +122,8 @@ Walk naturally — the system will detect gait phases and plot live graphs.
 
 Optionally, record the data for later analysis.
 
+---
+
 ## 🔍 Data Processing Pipeline
 Step	Operation	Description
 1	Signal Acquisition	Collect raw sensor data (acc, gyro)
@@ -127,6 +131,9 @@ Step	Operation	Description
 3	Segmentation	Detect gait cycles using peaks/zero crossings
 4	Feature Extraction	Calculate stride length, cadence, gait symmetry, etc.
 5	Visualization	Display real-time plots and statistics
+
+---
+
 ## 📊 Results & Visualization
 
 The Processing interface provides:
@@ -141,6 +148,8 @@ Option to export logs for offline study
 
 (Insert screenshots or graphs here)
 
+---
+
 ## 🧭 Future Improvements
 
 Add machine learning models to classify gait abnormalities.
@@ -152,6 +161,8 @@ Support wireless streaming (ESP8266 / BLE).
 Develop a mobile app for remote monitoring and data logging.
 
 Integrate cloud storage and dashboards for therapists and researchers.
+
+---
 
 ## 🤝 Contributing
 
@@ -168,10 +179,14 @@ Push to the branch (git push origin feature-name)
 
 Open a Pull Request
 
+---
+
 ## 🪪 License
 
 This project is released under the MIT License.
 You’re free to use, modify, and distribute it for educational or research purposes.
+
+---
 
 ## 🧍 Author
 
