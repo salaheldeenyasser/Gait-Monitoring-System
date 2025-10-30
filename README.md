@@ -127,15 +127,15 @@ Optionally, record the data for later analysis.
 ## 🔍 Data Processing Pipeline
 Step	Operation	Description:
 
-1	Signal Acquisition	Collect raw sensor data (acc, gyro)
+1.	Signal Acquisition	Collect raw sensor data (acc, gyro)
 
-2	Filtering	Apply low-pass filter to remove noise
+2.	Filtering	Apply low-pass filter to remove noise
 
-3	Segmentation	Detect gait cycles using peaks/zero crossings
+3.	Segmentation	Detect gait cycles using peaks/zero crossings
 
-4	Feature Extraction	Calculate stride length, cadence, gait symmetry, etc.
+4.	Feature Extraction	Calculate stride length, cadence, gait symmetry, etc.
 
-5	Visualization	Display real-time plots and statistics
+5.	Visualization	Display real-time plots and statistics
 
 ---
 
@@ -174,33 +174,35 @@ Integrate cloud storage and dashboards for therapists and researchers.
 Contributions, ideas, and feature suggestions are welcome!
 To contribute:
 
-Fork the repository
+1. Fork the repository
 
-Create a feature branch 
+2. Create a feature branch 
 ```bash
 git checkout -b feature-name
 ```
-Commit your changes 
+3. Commit your changes 
 ```bash
 git commit -m "Add feature"
 ```
 
-Push to the branch 
+4. Push to the branch 
 ```bash
 git push origin feature-name
 ```
-Open a Pull Request
+5. Open a Pull Request
 
 ---
 
 ## 🪪 License
 
-This project is released under the MIT License.
+This project is released under the **MIT License**.
+
 You’re free to use, modify, and distribute it for educational or research purposes.
 
 ---
 
 ## 🧍 Author
 
-Salah-Eldeen Yasser
+**Salah-Eldeen Yasser**
+
 👨‍💻 Junior Embedded Software Engineer
