@@ -89,7 +89,7 @@ This project provides a **low-cost, portable, and open-source** alternative that
 ```bash
 git clone https://github.com/salaheldeenyasser/Gait-Monitoring-System.git
 cd Gait-Monitoring-System
-
+```
 ### 2. Set up Arduino
 
 Open the Arduino code from /Arduino/.
